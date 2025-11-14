@@ -1,4 +1,4 @@
-# Saarthi AI — Lead Qualification & Sales Script Generator
+ls# Saarthi AI — Lead Qualification & Sales Script Generator
 
 A course-ready full-stack prototype for lead scoring and agent script generation targeted at Tier-2/3 Indian markets.
 
