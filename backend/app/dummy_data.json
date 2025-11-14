@@ -1,0 +1,32 @@
+[
+{
+"name": "Ramesh",
+"age": 32,
+"occupation": "shopkeeper",
+"monthly_income": 35000,
+"dependents": 2,
+"goal": "family protection",
+"notes": "wants low monthly premium, not tech savvy",
+"language": "hi"
+},
+{
+"name": "Sakshi",
+"age": 28,
+"occupation": "school teacher",
+"monthly_income": 45000,
+"dependents": 1,
+"goal": "child education",
+"notes": "open to ULIP if returns reasonable",
+"language": "en"
+},
+{
+"name": "Amit",
+"age": 40,
+"occupation": "tractor driver",
+"monthly_income": 20000,
+"dependents": 3,
+"goal": "safeguard family",
+"notes": "very trust sensitive",
+"language": "hi"
+}
+]

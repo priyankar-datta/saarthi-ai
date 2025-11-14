@@ -1,0 +1,16 @@
+# Optional: Render service spec. Edit as required before import.
+# Two services: backend (web service) and frontend (static site)
+services:
+  - type: web_service
+    name: saarthi-backend
+    env: docker
+    dockerfilePath: backend/app/Dockerfile
+    plan: free
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: true
+  - type: static_site
+    name: saarthi-frontend
+    buildCommand: npm install && npm run build
+    publishPath: frontend/client/dist
+    plan: free
